@@ -1,0 +1,4 @@
+interface:
+  display_name: "Torn Paper Relief Poster"
+  short_description: "Create refined torn-paper relief advertising posters"
+  default_prompt: "Use $torn-paper-relief-poster to transform this commercial poster into a premium torn-paper relief advertisement while preserving exact copy and brand assets."
