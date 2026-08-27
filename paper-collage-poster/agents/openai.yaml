@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Collage Poster"
+  short_description: "Turn ordinary posters into paper-cut collage ad concepts"
+  default_prompt: "把普通海报转化成剪纸/纸艺拼贴广告海报创意，保留真实的产品与文案信息。"
