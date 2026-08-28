@@ -4,7 +4,7 @@
 
 适用于 ComfyUI、Stable Diffusion、Flux、Midjourney，以及 DeepSeek Harness、Codex、Claude Code、OpenClaw 等支持 Markdown Skill 的 Agent。
 
-## 三种独立风格
+## 四种独立风格
 
 ### 1. High-End Color-Blocking Poster
 
@@ -30,6 +30,14 @@
 
 [进入 Torn Paper Relief Poster](torn-paper-relief-poster/)
 
+### 4. Clay Animation Poster
+
+黏土动画 / 定格动画海报。强调手工黏土质感、圆润塑形、轻微指纹与压痕、微缩场景布光和可控商业信息保真。
+
+适合通信权益、会员促销、饮品广告、食品零售和需要亲和、立体、手作质感，同时必须保留原始品牌、金额、二维码和服务文案的商业海报。
+
+[进入 Clay Animation Poster](clay-animation-poster/)
+
 ## 风格选择
 
 | Skill | 视觉关键词 | 适合的效果 |
@@ -37,6 +45,7 @@
 | High-End Color-Blocking | 大色块、留白、几何、编辑感 | 简洁、现代、品牌化 |
 | Paper Collage | 剪纸、纸片、拼贴、手工边缘 | 活泼、亲和、创意化 |
 | Torn Paper Relief | 撕纸、浮雕、纸张厚度、柔和投影 | 温暖、立体、商业化 |
+| Clay Animation | 黏土、定格动画、微缩布景、手作纹理 | 亲和、立体、内容保真 |
 
 ## 基本调用方式
 
@@ -49,7 +58,12 @@
 保留原海报的品牌、产品、价格、日期、二维码和法律文案；不要生成虚假文字或 Logo。
 ```
 
-三个 Skill 默认相互独立。除非明确要求，不会自动叠加撞色、剪纸拼贴和撕纸浮雕规则。
+```text
+请使用 $clay-animation-poster，把这张权益海报重绘成黏土动画风格。
+只使用当前海报作为内容来源，保留品牌、金额、套餐信息、二维码和服务文案，不混入其他项目内容。
+```
+
+四个 Skill 默认相互独立。除非明确要求，不会自动叠加撞色、剪纸拼贴、撕纸浮雕和黏土动画规则。
 
 ## 版权与商业使用
 
