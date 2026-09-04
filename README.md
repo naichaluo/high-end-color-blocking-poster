@@ -4,7 +4,7 @@
 
 适用于 ComfyUI、Stable Diffusion、Flux、Midjourney，以及 DeepSeek Harness、Codex、Claude Code、OpenClaw 等支持 Markdown Skill 的 Agent。
 
-## 九种独立风格
+## 十五种独立风格
 
 ### 1. High-End Color-Blocking Poster
 
@@ -78,6 +78,42 @@ RISO 丝网印刷几何重绘海报。强调硬边印刷轮廓、2–3 色油墨
 
 [进入 Fabric Patchwork Poster](fabric-patchwork-poster/)
 
+### 10. Watercolor Travel Card
+
+水彩旅行卡片海报。暖象牙冷压纸上的透明水彩 + 细钢笔线 + 右侧打孔档案栏，安静、通透、独立的旅行手账感。
+
+[进入 Watercolor Travel Card](watercolor-travel-card/)
+
+### 11. Impasto Miniature Landscape
+
+厚涂微缩景观海报。立体厚涂油画的雕塑感微缩场景，亮白纸、大留白、调色刀痕、明亮治愈。
+
+[进入 Impasto Miniature Landscape](impasto-miniature-landscape/)
+
+### 12. Isometric Healing Blocks
+
+等距治愈积木海报。圆角模块化的等距治愈雕塑，柔和空气感配色、大留白、温和精致。
+
+[进入 Isometric Healing Blocks](isometric-healing-blocks/)
+
+### 13. Papercraft Travel Diorama
+
+纸艺旅行微缩立体场景海报。纸/卡纸手作微缩场景，软蓝冷调、精致手作、轻盈优雅。
+
+[进入 Papercraft Travel Diorama](papercraft-travel-diorama/)
+
+### 14. Pixel Dissolve Landscape
+
+像素溶解风景海报。暖白纸上的限色调像素重构，主体向纸白逐渐溶解，宁静克制。
+
+[进入 Pixel Dissolve Landscape](pixel-dissolve-landscape/)
+
+### 15. Observational Pen Wash
+
+钢笔淡彩观察写生海报。极简观察笔记本，细钢笔线 + 稀疏薄水彩 + 大胆留白。
+
+[进入 Observational Pen Wash](observational-pen-wash/)
+
 ## 风格选择
 
 | Skill | 视觉关键词 | 适合的效果 |
@@ -90,7 +126,13 @@ RISO 丝网印刷几何重绘海报。强调硬边印刷轮廓、2–3 色油墨
 | Ghibli Animation | 水彩、田园、怀旧、治愈故事书 | 温润、质朴、治愈 |
 | Crayon Scribble | 蜡笔、叠色涂抹、童趣、暖纸 | 活泼、手绘、童趣 |
 | RISO Print Redesign | 丝网印刷、2–3色油墨、套准纸缝 | 编辑感、印刷感、几何抽象 |
-| Fabric Patchwork | 拼布、毛边、手缝、布艺纽扣 | 温暖、可亲、手作
+| Fabric Patchwork | 拼布、毛边、手缝、布艺纽扣 | 温暖、可亲、手作 |
+| Watercolor Travel Card | 透明水彩、钢笔线、打孔档案栏 | 通透、克制、旅行手账 |
+| Impasto Miniature Landscape | 厚涂油画、调色刀痕、微缩立体 | 明亮、治愈、雕塑感 |
+| Isometric Healing Blocks | 圆角模块、等距雕塑、空气感 | 温和、精致、治愈 |
+| Papercraft Travel Diorama | 纸艺、卡纸、手作微缩、软蓝 | 轻盈、优雅、手作 |
+| Pixel Dissolve Landscape | 限色调、像素溶解、纸白 | 宁静、克制、记忆感 |
+| Observational Pen Wash | 钢笔线、薄水彩、大胆留白 | 极简、写生、留白 |
 
 ## 基本调用方式
 
@@ -113,7 +155,7 @@ RISO 丝网印刷几何重绘海报。强调硬边印刷轮廓、2–3 色油墨
 默认使用整块格纹布做底（铺满整张），保留原海报的品牌、价格、二维码和法律文案。
 ```
 
-九个 Skill 默认相互独立。除非明确要求，不会自动叠加各风格规则（例如想叠加 RISO 与布艺时，请明确指定由哪个 Skill 主导）。
+十五个 Skill 默认相互独立。除非明确要求，不会自动叠加各风格规则（例如想叠加 RISO 与布艺时，请明确指定由哪个 Skill 主导）。
 
 ## 版权与商业使用
 
