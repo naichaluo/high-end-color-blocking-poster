@@ -4,7 +4,7 @@
 
 适用于 ComfyUI、Stable Diffusion、Flux、Midjourney，以及 DeepSeek Harness、Codex、Claude Code、OpenClaw 等支持 Markdown Skill 的 Agent。
 
-## 十五种独立风格
+## 十七种独立风格
 
 ### 1. High-End Color-Blocking Poster
 
@@ -114,6 +114,18 @@ RISO 丝网印刷几何重绘海报。强调硬边印刷轮廓、2–3 色油墨
 
 [进入 Observational Pen Wash](observational-pen-wash/)
 
+### 16. Flat Spot Poster
+
+留白平涂小景海报。不透明水粉平涂 + 剪纸拼贴式几何块面 + 哑光丝网印质感，像印在暖白纸中央的一张安静小画；画布保留原图尺寸，边界由场景形状不规则收口。
+
+[进入 Flat Spot Poster](flat-spot-poster/)
+
+### 17. Knitted Yarn Poster
+
+针织毛线手工艺术海报。整个画面全部由粗毛线、钩针编织、绒线手工制作而成，清晰的毛线线圈纹理、看得见的纱线毛絮、柔和室内柔光、干净浅米色背景、静物俯拍、精致高级手工艺术品。
+
+[进入 Knitted Yarn Poster](knitted-yarn-poster/)
+
 ## 风格选择
 
 | Skill | 视觉关键词 | 适合的效果 |
@@ -133,6 +145,8 @@ RISO 丝网印刷几何重绘海报。强调硬边印刷轮廓、2–3 色油墨
 | Papercraft Travel Diorama | 纸艺、卡纸、手作微缩、软蓝 | 轻盈、优雅、手作 |
 | Pixel Dissolve Landscape | 限色调、像素溶解、纸白 | 宁静、克制、记忆感 |
 | Observational Pen Wash | 钢笔线、薄水彩、大胆留白 | 极简、写生、留白 |
+| Flat Spot | 平涂小景、不透明水粉、剪纸拼贴块面 | 安静、编辑感、印刷质感 |
+| Knitted Yarn | 粗毛线、钩针线圈、纱线毛絮、静物俯拍 | 温暖、手作、高级质感 |
 
 ## 基本调用方式
 
@@ -155,7 +169,7 @@ RISO 丝网印刷几何重绘海报。强调硬边印刷轮廓、2–3 色油墨
 默认使用整块格纹布做底（铺满整张），保留原海报的品牌、价格、二维码和法律文案。
 ```
 
-十五个 Skill 默认相互独立。除非明确要求，不会自动叠加各风格规则（例如想叠加 RISO 与布艺时，请明确指定由哪个 Skill 主导）。
+十七个 Skill 默认相互独立。除非明确要求，不会自动叠加各风格规则（例如想叠加 RISO 与布艺时，请明确指定由哪个 Skill 主导）。
 
 ## 版权与商业使用
 
