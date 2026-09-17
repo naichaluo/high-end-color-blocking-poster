@@ -4,7 +4,7 @@
 
 适用于 ComfyUI、Stable Diffusion、Flux、Midjourney，以及 DeepSeek Harness、Codex、Claude Code、OpenClaw 等支持 Markdown Skill 的 Agent。
 
-## 十七种独立风格
+## 十九种独立风格
 
 ### 1. High-End Color-Blocking Poster
 
@@ -126,6 +126,18 @@ RISO 丝网印刷几何重绘海报。强调硬边印刷轮廓、2–3 色油墨
 
 [进入 Knitted Yarn Poster](knitted-yarn-poster/)
 
+### 18. Doodle Marker Poster
+
+手绘涂鸦 / 稚拙插画 / 马克笔手绘海报。松弛抖动断续的手绘线条 + 马克笔/蜡笔/油画棒般的手工平涂，造型简化符号化略夸张；大面积留白、主体偏心不对称，文字与图形作为同一构图系统设计，追求"稚拙手绘 × 成熟构图 × 大量留白 × 独立出版物气质"。
+
+[进入 Doodle Marker Poster](doodle-marker-poster/)
+
+### 19. Washi Tape Collage Poster
+
+手账纸胶带拼贴海报。手工纸艺拼贴 × 手账素材 × 撕纸拼贴 × 纸胶带拼贴：米白/奶油/旧纸底纸、不规则撕裂纸片层层叠贴、可见纸张纤维与干燥颜料痕迹、局部略微错位，少量半透明纸胶带真实贴固定。低饱和复古手账配色，像高级旅行手账里撕下来的一页。
+
+[进入 Washi Tape Collage Poster](washi-tape-collage-poster/)
+
 ## 风格选择
 
 | Skill | 视觉关键词 | 适合的效果 |
@@ -147,6 +159,8 @@ RISO 丝网印刷几何重绘海报。强调硬边印刷轮廓、2–3 色油墨
 | Observational Pen Wash | 钢笔线、薄水彩、大胆留白 | 极简、写生、留白 |
 | Flat Spot | 平涂小景、不透明水粉、剪纸拼贴块面 | 安静、编辑感、印刷质感 |
 | Knitted Yarn | 粗毛线、钩针线圈、纱线毛絮、静物俯拍 | 温暖、手作、高级质感 |
+| Doodle Marker | 抖动断续手绘线、马克笔平涂、大留白、图文一体 | 稚拙、文艺、独立出版物感 |
+| Washi Tape Collage | 撕纸层叠、纸胶带、纸张纤维、低饱和复古 | 手账、怀旧、温暖文艺 |
 
 ## 基本调用方式
 
@@ -169,7 +183,7 @@ RISO 丝网印刷几何重绘海报。强调硬边印刷轮廓、2–3 色油墨
 默认使用整块格纹布做底（铺满整张），保留原海报的品牌、价格、二维码和法律文案。
 ```
 
-十七个 Skill 默认相互独立。除非明确要求，不会自动叠加各风格规则（例如想叠加 RISO 与布艺时，请明确指定由哪个 Skill 主导）。
+十九个 Skill 默认相互独立。除非明确要求，不会自动叠加各风格规则（例如想叠加 RISO 与布艺时，请明确指定由哪个 Skill 主导）。
 
 ## 版权与商业使用
 
